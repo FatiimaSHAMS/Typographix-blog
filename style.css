@@ -175,8 +175,7 @@ footer {
         color: hsl(0,0%,25%);
     }
      
-
- /* Media Queries------------ */
+/* Media Queries------------ */
  /* Tablet Vertical */
  @media screen and (max-width: 1025px) {
     .nav-left h1 {
@@ -231,3 +230,4 @@ footer {
     }
 
  }
+ 
