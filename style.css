@@ -56,7 +56,51 @@ nav {
     .nav-right a:hover {
         color:  hsl(0, 0%, 25%);
     }
+/* Skeleton Style  */
+.featured-article-skeleton {
+    margin-bottom: 50px;
+}
+.article-skeleton {
+    flex:1;
+    margin: 0 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius:5px;
+}
 
+.skeleton-image {
+    height: 300px;
+}
+
+.skeleton-line{
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.skeleton-image, .skeleton-line {
+    background: linear-gradient(90deg, #e0e0e0, #f0f0f0, #e0e0e0);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;   
+}
+
+.skeleton-line--large {
+    height: 40px;
+    margin: 40px auto;
+}
+
+.hidden {
+    display:none;
+}
+
+/* Shimmer Animation  */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
 /* Featured Article Styles  */
 .featured-article {
     margin-bottom: 50px;
